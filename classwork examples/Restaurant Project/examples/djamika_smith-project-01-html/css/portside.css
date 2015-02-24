@@ -1,0 +1,158 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+    
+body{
+	font-family:'Lato', sans-serif;
+	background-image:url('../images/19.jpg');
+	background-repeat:repeat;
+	height:100%;
+	}
+	
+img.food{
+	width:533px;
+	}
+
+img.logo{
+	position: absolute;
+	left: -58px;
+	top: 20px;
+	}
+	
+img.title{
+	position: absolute;
+	left:163px;
+	top:70px;
+	}
+
+p{
+	font-size: 13px;
+	line-height:18px;
+	padding: 0px;
+	margin:5px 0px 15px 0px; 
+	}
+	
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+h2{
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+	
+	
+#main{
+	position:relative;
+	width: 880px;
+	height: 100%;
+	margin: auto;
+	background-color:#D2B48C;
+	}
+
+#header{
+	position:fixed;
+	top:0px;
+	width: 880px;
+	height: 180px;
+	z-index: 2;
+	background-color: #D2B48C;
+	}
+
+#nav{
+	position:absolute;
+	left:540px;
+	top:97px;
+	width: 250px;
+	height:30px;
+	list-style: none;
+	background-color:#475771;
+	padding-top: 10px;	
+	}
+
+#nav li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	color: #FFF;
+	border-right: 2px inset #FFF;
+	}
+	
+#nav li a{
+	color:#FFF;
+	text-decoration:none;
+	font-size: 16px;
+	}
+
+a:hover{
+	text-decoration:underline;
+	color:white;
+	}
+	
+#sidebar{
+	position: absolute;
+	top: 280px;
+	left: 50px;
+	font-color: #FFF;
+	}
+	
+p.sidebar{
+	color: #8B4500;
+	}
+
+#container{
+	position: relative;
+	top:180px;
+	margin-left: 260px;
+	width: 533px;
+	background-color:#FFFFFF;
+	z-index: 1;
+	}
+	
+section.menusection,hr{
+	float:left;
+	width: 475px;
+	margin:0px 30px 0px 30px;
+	}
+	
+ul.left{
+	width: 223px;
+	float: left;
+	}
+	
+ul.right{
+	width: 223px;
+	float: right;
+	}
+	
+span.prices{
+	color: red;
+	}
+
+span.description{
+	color: gray;
+	}
+	
+li{
+	font-size: 13px;
+	list-style: none;
+	}
+	
+ul{
+	list-style: none;
+	padding: 0px;
+	}
+	
+a.backtotop{
+	font-size: 25px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#BC573D;
+	margin: 30px 0px 10px 0px;
+	}

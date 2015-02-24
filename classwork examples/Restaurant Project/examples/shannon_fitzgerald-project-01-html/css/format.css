@@ -1,0 +1,398 @@
+body {
+	text-align: center;
+	font: none 12px "Trebuchet MS", helvetica, sans-serif;
+	color: #525252;
+	letter-spacing: .15em;
+	margin: 0px;
+	/*IE 6,7,8 compatibility*/
+}
+
+h2 {
+	font: bold 14px "Trebuchet MS", helvetica, sans-serif;
+	display: inline;
+}
+
+h3 {
+	font: bold 14px/24px "Trebuchet MS", helvetica, sans-serif;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	color: #c78b18;
+}
+
+h4 {
+	font-size: 12px;
+	display: inline-block;
+	font-style: italic;
+	font-weight: normal;
+	color: #8a8a8a;
+	margin: 7px 0 0 0;
+}
+
+h5 {
+	font: bold 28px/24px "Trebuchet MS", helvetica, sans-serif;
+	color: #8a8a8a;
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	font: none 12px/24px "Trebuchet MS", helvetica, sans-serif;
+	margin: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+	color: #6f6f6f;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a:hover,
+a:focus {
+	color: #9a9a9a;
+}
+
+#header {
+	width: 100%;
+	height: 278px;
+	overflow: hidden;
+	background: url('../img/bg.jpg') left top repeat;
+	border-bottom: 2px solid #6f6f6f;
+}
+
+#infobar {
+	float: left;
+	width: 100%;
+	height: 30px;
+	background: #efefef;
+	opacity: 0.6;
+}
+
+#basicinfo {
+	margin: 6px 0 0 0;
+	padding: 0;
+	color: #4a4a4a;
+}
+
+#basicinfo li {
+	display:inline;
+	padding: 0 16px 0 0;
+	margin: 0;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+
+#mainhead {
+	width: 810px;
+	height: 248px;
+	margin: 30px auto 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+#titlegraphic {
+	float: left;
+	margin: 0;
+	width: 303px;
+	height: 210px;
+	
+	position: absolute;
+	bottom: 20px;
+	
+	background: url('../img/owl.png') left top no-repeat;
+	text-indent: -999999px;
+}
+
+#headnav {
+	margin: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+}
+
+#headnav li {
+	float: right;
+	padding: 0 0 0 40px;
+	list-style: none;
+}
+
+#headnav a:link,
+#headnav a:visited,
+#headnav a:active {
+	font-size: 16px;
+}
+
+#container {
+	width: 810px;
+	margin: 0 auto;
+	text-align: left;
+	overflow: hidden;
+}
+
+#news {
+	float: left;
+	margin: 50px 0 0 0;
+	padding: 0 0 25px 0;
+}
+
+#post {
+	margin: 5px 0 0 0;
+}
+
+#newslinks {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+#newsnav {
+	margin: 0;
+	padding: 15px 0 0 0;
+	border-top: 1px dotted #000;
+}
+
+#newsnav li {
+	float: right;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+/* root element for tabs  */
+#menucontainer {
+	float: left;
+	width: 810px;
+	overflow: hidden;
+	margin: 30px auto 40px auto;
+	text-align: left;
+	background: #f0efef;
+}
+
+#tabcontainer {	
+	float: left;
+	width: 165px;
+	height: 100%;
+	margin: 0;
+}
+
+ul.tabs {
+	width: 105px;
+	float: left;
+	margin: 40px 35px 0 25px;
+	padding: 0;
+	list-style: none;
+}
+
+ul.tabs .current,
+ul.tabs .current a,
+ul.tabs .current:hover {
+	color: #6f6f6f;
+	cursor:default !important;
+}
+
+ul.tabs li {
+	padding: 0 0 25px 0;
+	margin: 0 0 25px 0;
+	border-bottom: 1px dotted #000;
+}
+
+
+
+#pdfs {
+	float: left;
+	padding: 0;
+	margin: 0 0 40px 25px;
+	width: 105px;
+	font-size: 11px;
+}
+
+#pdfs li {
+	list-style: none;
+}
+
+#pdfs li:first-child {
+	background: #fff;
+	padding: 4px;
+	margin: 10px 0 20px 0;
+}
+
+#panescontainer {
+	float: left;
+	width: 640px;
+	overflow: hidden;
+	padding: 0px;
+	background: #ccc;
+	border-left: 5px solid #fff;
+}
+
+#panes {
+	display: none;
+}
+
+div.key {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#lunchlist,
+#dinnerlist,
+#brunchlist,
+#spiritslist {
+	float: left;
+	margin: 40px 40px 0 40px;
+	padding: 0;
+}
+
+#lunchlist li,
+#dinnerlist li,
+#brunchlist li,
+#spiritslist li{
+	list-style: none;
+	margin: 0 0 30px 0;
+}
+
+#beerlist {
+	margin: 10px 0 0 0;
+}
+
+p.veg {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0 0 0 4px;
+	text-indent: -999999px;
+	background: url('../img/veg.png') left top no-repeat;
+}
+
+p.glut {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0 0 0 4px;
+	text-indent: -999999px;
+	background: url('../img/gluten.gif') left top no-repeat;
+}
+
+#directions {
+	float: left;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border-top: 1px dotted #000;
+}
+
+#map {
+	margin: 40px 0 20px 0;
+}
+
+#infocontainer {
+	float: left;
+	width: 810px;
+	margin: 30px 0 0 0;
+	padding: 40px 0 0 0;
+	border-top: 1px dotted #000;
+}
+
+#info {
+	float: left;
+	width: 400px;
+	margin: 0 10px 0 0;
+}
+
+#info ul {
+	margin: 0;
+	padding: 0;
+}
+
+#info ul li {
+	margin: 0 0 20px 0;
+}
+
+#social {
+	width: 90px;
+	float: left;
+	list-style: none;
+}
+
+#twitter {
+	width: 40px;
+	height: 40px;
+	background: url('../img/twit.png') left top no-repeat;
+	text-indent: -999999px;
+}
+
+#facebook {
+	width: 40px;
+	height: 40px;
+	background: url('../img/fb.png') left top no-repeat;
+	text-indent: -999999px;
+}
+
+#reservations {
+	float: left;
+	width: 400px;
+	margin: 0;
+	background: #f0efef;
+}
+
+#reservations ul {
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#reservations ul li {
+	margin: 0 0 20px 0;
+	list-style: none;
+}
+
+#reservations ul li:first-child {
+	padding-bottom: 20px;
+}
+
+#submit {
+	width: 48px;
+	background: #ccc;
+	padding: 4px 10px;
+}
+
+#submit a {
+	color: #fff;
+}
+
+#footer {
+	width: 100%;
+	height: 40px;
+	margin: 40px 0 0 0;
+	padding: 20px 0;
+	text-align:center;
+	background: #ccc;
+}
+
+#footerlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	text-align: center;
+
+}
+
+#footerlist li {
+	margin: 0 0 0 40px;
+	display: inline;
+}
+
+#footerlist li:first-child {
+	margin: 0;
+}
+
+#footer p {
+	margin: 20px 0 0 0;
+}

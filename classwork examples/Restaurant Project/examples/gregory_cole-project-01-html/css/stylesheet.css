@@ -1,0 +1,219 @@
+/* Background */
+
+* { margin:0; padding:0; }
+
+body {
+	background-image:url('../images/background.jpg');
+	background-repeat:repeat;
+} 
+
+/* Logo */
+
+#logo {
+	background: url('../images/logo.png') left top no-repeat;
+	width: 220;
+	height: 63px;
+	text-indent: -9999px;
+	position: relative;
+	margin: 80px 0 0 0;
+}
+
+/* Structure */
+
+#container {
+	width: 748px;
+	margin: auto;
+	padding-bottom: 100px;
+}
+	
+#header {
+	padding-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+#midsection {
+	border-top: solid 2px #a2575e;
+	padding-top: 20px;
+	position: relative;
+}
+
+#menu {
+	padding-top: 15px;
+	position: relative;
+	height: 340px;
+}
+
+#food {
+	position: relative;
+	float: left;
+}
+
+#drinks {
+	position: relative;
+	float: left;
+	margin-left: 20px;
+}
+
+#footer {
+	border-top: solid 2px #a2575e;
+	padding-top: 15px;
+	position: relative;
+	width:100%;
+}
+
+/* Navigation */
+
+#navigation {
+	position: relative;
+	float: right;
+	margin: -24px 0 0 0;
+}
+
+#navigation li {
+	float: left;
+	margin: 0 0 0 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	list-style: none;
+	letter-spacing: .05em;
+}
+
+#footer_navigation {
+	position: absolute;
+	width: 100%;
+	float: left;
+	margin: -10px 0 0 0;
+}
+
+#footer_navigation li {
+	float: left;
+	margin: 5px 0 0 14px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 18px;
+	list-style: none;
+	letter-spacing: .05em;
+}
+
+#navigation li:first-child {
+	margin: 0;
+}
+
+
+#footer_navigation li:first-child {
+	margin: 5px 0 0 0;
+}
+
+#navigation a:link,
+#navigation a:visited,
+#navigation a:active,
+#footer_navigation a:link,
+#footer_navigation a:visited,
+#footer_navigation a:active {
+	text-decoration: none;
+	color: #ff5e5e;
+}
+
+#navigation a:hover,
+#navigation a:focus,
+#footer_navigation a:hover,
+#footer_navigation a:focus {
+	color: #b8febe;
+}
+
+/* Menu */
+
+h1.menu {
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: .05em;
+	color: #fff;
+	display: block;
+	border-bottom: solid 2px #a2575e;
+	width: 364px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+ul.left_column {
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+	position: absolute;
+}
+
+ul.right_column {
+	text-align: right;
+	float: right;
+	padding-right: 20px;
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #b8febe;
+	text-decoration: none;
+	list-style: none;
+}
+
+/* Other */
+
+#review {
+	width: 195px;
+	position: relative;
+	float: left;
+	padding: 10px 0 20px 0px;
+	font-family: 'Vollkorn', serif;
+	font-weight: 400italic;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 18px;
+	color: #b8febe;
+	letter-spacing: .02em;
+}
+
+ul.extra_content {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 14px;
+	text-decoration: none;
+	list-style: none;
+	color: #b8febe;
+	position: relative;
+	float: right;
+	margin: 30px 15px 0 15px;
+}
+
+#extra_content_footer {
+	position: absolute;
+	margin: -4px 0 0 637px;
+}
+
+#food_select,
+#drinks_select {
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+
+/* Images */
+
+img.interior {
+	float: left;
+	padding-right: 25px;
+}
+
+img.icon {
+	margin: 0 0 0 555px;
+}
